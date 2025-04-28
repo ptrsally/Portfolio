@@ -1,0 +1,151 @@
+﻿/portfolio
+│
+├── index.html
+├── style.css
+├── script.js
+└── assets
+    └── image.jpg (Foto atau ilustrasi kamu)
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Putry Sally Angellyta - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Putry Sally Angellyta</h1>
+            <p>Accountant | Tax Expert | Polyglot</p>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <img src="assets/image.jpg" alt="Putry Sally Angellyta">
+            <p>I am an accountant who pursued a degree in accounting with a focus on taxation...</p>
+        </div>
+    </section>
+
+    <section id="experience">
+        <div class="container">
+            <h2>Experience</h2>
+            <ul>
+                <li>Internship at P2F LIPI Tangerang Selatan (Administration Department)</li>
+                <li>Internship at SMK Muda Tangerang Selatan (Financial Administration Department)</li>
+                <!-- Add other experiences here -->
+            </ul>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul>
+                <li>Stock Trading: Fundamental Analysis, Technical Analysis, Risk Management</li>
+                <li>Polyglot: Japanese (JLPT N4 Certificate), Arabic (Basic), Mandarin (Basic)</li>
+                <!-- Add more skills here -->
+            </ul>
+        </div>
+    </section>
+
+    <section id="education">
+        <div class="container">
+            <h2>Education</h2>
+            <p>Bachelor Degree in Accounting (Cumlaude, 3.5 years)</p>
+            <p>TOEFL Certificate, JLPT N4 Japanese Language Certificate</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>Email: putry.sally.angellyta@gmail.com</p>
+            <a href="https://www.linkedin.com/in/putry-sally-angellyta">LinkedIn</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Putry Sally Angellyta. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #ffb6c1; /* Soft pastel pink */
+    text-align: center;
+    padding: 50px 0;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+section {
+    padding: 40px 0;
+}
+
+section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+section p, section ul {
+    font-size: 1.1rem;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+#about img {
+    width: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+a {
+    color: #ffb6c1;
+    text-decoration: none;
+}
+
+// Add any JavaScript you may need for interactivity
+console.log("Welcome to my portfolio!");
+
